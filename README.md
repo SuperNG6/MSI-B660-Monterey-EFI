@@ -60,8 +60,8 @@ Link of tutorial：https://sleele.com/2019/03/21/smbios/
 ![vXUITT](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vXUITT.png)
 
 ### Recommend BIOS version 7D42v13(7D42v17 is not supported)
-MAG B660M MORTAR WIFI DDR4 download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
-![byMoFf](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/byMoFf.png)
+MAG B660M MORTAR WIFI DDR4 BIOS download link https://cn.msi.com/Motherboard/MAG-B660M-MORTAR-WIFI-DDR4/support
+![tbTDlD](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/tbTDlD.png)
 
 # Detail:
 [My Blog: https://sleele.com/2020/04/13/hackintosh-catalina/ ](https://sleele.com/2020/04/13/hackintosh-catalina/ "Blog")
