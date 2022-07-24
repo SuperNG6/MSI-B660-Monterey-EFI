@@ -1,0 +1,97 @@
+#!/bin/bash
+
+# get release tag
+NVMeFix_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'NVMeFix' | cut -d= -f2-)
+IntelMausi_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'IntelMausi' | cut -d= -f2-)
+VirtualSMC_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'VirtualSMC' | cut -d= -f2-)
+Lilu_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'Lilu' | cut -d= -f2-)
+WhateverGreen_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'WhateverGreen' | cut -d= -f2-)
+OpenCorePkg_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'OpenCorePkg' | cut -d= -f2-)
+AppleALC_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-Hackintosh-Tools/main/ReleaseTag | grep 'AppleALC' | cut -d= -f2-)
+
+ReleaseTag=$(cat ReleaseTag | head -n1)
+
+# generate README.md
+cat > README.md << EOF
+## Requires macOS 12.4+. It's Free and Open Source.  
+
+![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B660-Monterey-EFI/latest/total?style=flat-square)
+![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B660-Monterey-EFI/total?style=flat-square)  
+![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B660-Monterey-EFI?style=flat-square)
+
+# Getting Started Tutorials & Documentation  
+https://sleele.com/2019/07/14/gettingstartedtutorial/
+
+# Wiki  
+https://sleele.com/2020/04/13/hackintosh-Big-Sur
+
+# OpenCore Guide  
+https://sleele.com/2019/10/31/opencore-guide/
+
+### Platform Info && Download link
+
+| SMBIOS        | Platform           | Downloads Link | 
+| ------------- | ------------------ |  ------------ | 
+| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/${ReleaseTag}/AMD.GPU.MacPro7,1.zip | 
+| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/${ReleaseTag}/AMD.RX550Lexa.MacPro7,1.zip | 
+
+### Acidanthera & Hackintosh Tools  
+https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
+
+| Components    | Version               |
+| ------------- | --------------------- |
+| OpenCorePkg   | ${OpenCorePkg_TAG}    | 
+| AppleALC      | ${AppleALC_TAG}       |
+| IntelMausi    | ${IntelMausi_TAG}     |
+| Lilu          | ${Lilu_TAG}           |
+| VirtualSMC    | ${VirtualSMC_TAG}     |
+| WhateverGreen | ${WhateverGreen_TAG}  |
+| NVMeFix       | ${NVMeFix_TAG}        |
+    
+
+## Changelog
+### 2022/07/23
+
+    1、build MAG B660M MORTAR DDR4 Hackintosh EFI
+    2、add support for General AMD GPU & RX550Lexa GPU
+    3、support macOS Monterey 12.5
+    4、All functions are working properly （icloud、Handoff、Siri、FaceTime、imessage、Airdrop、sleep、Apple Watch wake up... ）
+    
+# BIOS settings
+
+    Disable Fast Boot
+    Disable MSI Fast Boot
+    Disable Intel VT-D
+    Disable CFG Lock
+
+# Recommend to modify your SMBIOS
+Link of tutorial：https://sleele.com/2019/03/21/smbios/
+![vXUITT](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vXUITT.png)
+
+### Recommend BIOS version 7D42v13(7D42v17 is not supported)
+MAG B660M MORTAR WIFI DDR4 download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
+![byMoFf](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/byMoFf.png)
+
+# Detail:
+[My Blog: https://sleele.com/2020/04/13/hackintosh-catalina/ ](https://sleele.com/2020/04/13/hackintosh-catalina/ "Blog")
+
+![rvDuwd](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/rvDuwd.png)
+![hxJksr](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/hxJksr.png)
+![P03Pnp](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/P03Pnp.png)
+![qpfYRs](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/qpfYRs.png)
+![aENnOp](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/aENnOp.png)
+![abCFJ0](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/abCFJ0.png)
+![Xriq1v](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Xriq1v.png)
+![vvGd6Y](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vvGd6Y.png)
+
+## Geekbench5 Benchmark
+![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g1.jpg)
+![g2](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g2.jpg)
+
+EOF

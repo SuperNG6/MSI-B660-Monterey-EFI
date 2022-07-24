@@ -1,0 +1,42 @@
+# GitHub Action
+# MSI-B360-BigSur-EFI
+
+name: Upload EFI to pre release
+
+on:
+  push:
+    paths:
+      - "PreReleaseTag"
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v2
+
+      - name: Packaging EFI
+        run: |
+          zip -q -r AMD.GPU.MacPro7,1.zip ./AMD\ GPU\ \(MacPro7\,1\)/
+          zip -q -r AMD.RX550Lexa.MacPro7,1.zip ./AMD\ RX550Lexa\ \(MacPro7\,1\)/
+
+          ls -l *.zip
+
+      - name: Generate release tag
+        id: tag
+        run: |
+          echo "::set-output name=release_tag::$(cat PreReleaseTag)"
+          cat PreReleaseTag
+
+      - name: Upload EFI to release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: MSI-B360-${{ steps.tag.outputs.release_tag }}-EFI
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          prerelease: true
+          body_path: Prereleaselog.md
+          files: |
+            ./*.zip
