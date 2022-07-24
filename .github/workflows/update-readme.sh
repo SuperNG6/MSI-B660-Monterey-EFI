@@ -38,8 +38,8 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform           | Downloads Link | 
 | ------------- | ------------------ |  ------------ | 
-| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/${ReleaseTag}/AMD.GPU.MacPro7,1.zip | 
-| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/${ReleaseTag}/AMD.RX550Lexa.MacPro7,1.zip | 
+| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/$ReleaseTag/AMD.GPU.MacPro7.1.zip | 
+| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/$ReleaseTag/AMD.RX550Lexa.MacPro7.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
