@@ -91,7 +91,7 @@ MAG B660M MORTAR WIFI DDR4 BIOS download link https://cn.msi.com/Motherboard/MAG
 ![vvGd6Y](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vvGd6Y.png)
 
 ## Geekbench5 Benchmark
-![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g1.jpg)
+![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Xnip2022-08-02_19-39-53.png)
 ![g2](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g2.jpg)
 
 EOF
