@@ -1,5 +1,5 @@
 # GitHub Action
-# MSI-B360-BigSur-EFI
+# MSI-B660-Monterey-EFI
 
 name: Upload EFI to pre release
 
@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: MSI-B360-${{ steps.tag.outputs.release_tag }}-EFI
+          name: MSI-B660-${{ steps.tag.outputs.release_tag }}-EFI
           tag_name: ${{ steps.tag.outputs.release_tag }}
           prerelease: true
           body_path: Prereleaselog.md
