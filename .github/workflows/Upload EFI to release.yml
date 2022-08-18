@@ -1,5 +1,5 @@
 # GitHub Action
-# MSI-B360-Catalina-EFI
+# MSI-B660-Monterey-EFI
 
 name: Upload EFI to release
 
@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: MSI-B360-${{ steps.tag.outputs.release_tag }}-EFI
+          name: MSI-B660-${{ steps.tag.outputs.release_tag }}-EFI
           tag_name: ${{ steps.tag.outputs.release_tag }}
           prerelease: false
           body_path: Changelog.md
