@@ -1,4 +1,4 @@
-## Requires macOS 12.4+. It's Free and Open Source.  
+## Requires macOS 12.5+. It's Free and Open Source.  
 
 ![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B660-Monterey-EFI?style=flat-square)
 ![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B660-Monterey-EFI?style=flat-square)
@@ -23,24 +23,30 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform           | Downloads Link | 
 | ------------- | ------------------ |  ------------ | 
-| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.5/AMD.GPU.MacPro7.1.zip | 
-| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.5/AMD.RX550Lexa.MacPro7.1.zip | 
+| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.6/AMD.GPU.MacPro7.1.zip | 
+| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.6/AMD.RX550Lexa.MacPro7.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.8.2    | 
-| AppleALC      | 1.7.3       |
+| OpenCorePkg   | 0.8.4    | 
+| AppleALC      | 1.7.5       |
 | IntelMausi    | 1.0.7     |
-| Lilu          | 1.6.1           |
+| Lilu          | 1.6.2           |
 | VirtualSMC    | 1.3.0     |
-| WhateverGreen | 1.6.0  |
+| WhateverGreen | 1.6.1  |
 | NVMeFix       | 1.1.0        |
     
 
 ## Changelog
+### 2022/09/19
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.6
+    
 ### 2022/07/23
 
     1、build MAG B660M MORTAR DDR4 Hackintosh EFI
@@ -76,6 +82,6 @@ MAG B660M MORTAR WIFI DDR4 BIOS download link https://cn.msi.com/Motherboard/MAG
 ![vvGd6Y](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vvGd6Y.png)
 
 ## Geekbench5 Benchmark
-![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g1.jpg)
-![g2](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g2.jpg)
+![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Xnip2022-08-02_19-39-53.png)
+![g2](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g2.png)
 
