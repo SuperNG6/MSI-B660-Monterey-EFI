@@ -11,10 +11,9 @@ AppleALC_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-
 
 # generate Changelog.md
 cat > Changelog.md << EOF
-1、build MAG B660M MORTAR DDR4 Hackintosh EFI
-2、add support for General AMD GPU & RX550Lexa GPU
-3、support macOS Monterey 12.5
-4、All functions are working properly （icloud、Handoff、Siri、FaceTime、imessage、Airdrop、sleep、Apple Watch wake up... ）
+1、update config.plist
+2、update OpenCorePkg & Kexts to the latest
+3、support macOS Monterey 12.6
 
 | Components    | Version               |
 | ------------- | --------------------- |

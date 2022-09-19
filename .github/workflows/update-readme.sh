@@ -13,7 +13,7 @@ ReleaseTag=$(cat ReleaseTag | head -n1)
 
 # generate README.md
 cat > README.md << EOF
-## Requires macOS 12.4+. It's Free and Open Source.  
+## Requires macOS 12.5+. It's Free and Open Source.  
 
 ![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B660-Monterey-EFI?style=flat-square)
 ![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B660-Monterey-EFI?style=flat-square)
@@ -56,6 +56,12 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/09/19
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.6
+    
 ### 2022/07/23
 
     1、build MAG B660M MORTAR DDR4 Hackintosh EFI
