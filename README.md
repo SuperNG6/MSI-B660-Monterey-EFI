@@ -23,15 +23,15 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform           | Downloads Link | 
 | ------------- | ------------------ |  ------------ | 
-| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.6/AMD.GPU.MacPro7.1.zip | 
-| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/12.6/AMD.RX550Lexa.MacPro7.1.zip | 
+| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.0/AMD.GPU.MacPro7.1.zip | 
+| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.0/AMD.RX550Lexa.MacPro7.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.8.4    | 
+| OpenCorePkg   | 0.8.5    | 
 | AppleALC      | 1.7.5       |
 | IntelMausi    | 1.0.7     |
 | Lilu          | 1.6.2           |
@@ -41,6 +41,13 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/11/02
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOs Ventura 13.0
+
+
 ### 2022/09/19
 
     1、update config.plist
