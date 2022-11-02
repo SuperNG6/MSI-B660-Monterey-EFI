@@ -877,7 +877,7 @@
 				<key>SystemAudioVolumeDB</key>
 				<data>4g==</data>
 				<key>boot-args</key>
-				<string>darkwake=0 -wegnoigpu -radcodec alcid=11</string>
+				<string>darkwake=0 -wegnoigpu -radcodec agdpmod=pikera alcid=11</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
