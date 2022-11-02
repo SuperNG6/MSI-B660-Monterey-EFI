@@ -13,7 +13,7 @@ AppleALC_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-
 cat > Changelog.md << EOF
 1、update config.plist
 2、update OpenCorePkg & Kexts to the latest
-3、support macOS Monterey 12.6
+3、support macOs Ventura 13.0
 
 | Components    | Version               |
 | ------------- | --------------------- |
