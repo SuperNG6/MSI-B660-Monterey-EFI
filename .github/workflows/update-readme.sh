@@ -56,6 +56,13 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/12/23
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOs Ventura 13.1
+    4、enable by default `-ctrsmt` boot arg
+
 ### 2022/11/02
 
     1、update config.plist
@@ -104,7 +111,6 @@ MAG B660M MORTAR WIFI DDR4 BIOS download link https://cn.msi.com/Motherboard/MAG
 ![vvGd6Y](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vvGd6Y.png)
 
 ## Geekbench5 Benchmark
-![g1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Xnip2022-08-02_19-39-53.png)
-![g2](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/g2.png)
+![Bi0ZW0](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Bi0ZW0.png)
 
 EOF
