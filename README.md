@@ -46,7 +46,7 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     1、update config.plist
     2、update OpenCorePkg & Kexts to the latest
     3、support macOs Ventura 13.1
-    4、enable by default  boot arg
+    4、enable by default bootarg `-ctrsm`
 
 ### 2022/11/02
 
