@@ -56,6 +56,12 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2023/02/01
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOs Ventura 13.2
+
 ### 2022/12/23
 
     1、update config.plist
@@ -68,7 +74,6 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     1、update config.plist
     2、update OpenCorePkg & Kexts to the latest
     3、support macOs Ventura 13.0
-
 
 ### 2022/09/19
 
