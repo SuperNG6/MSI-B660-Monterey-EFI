@@ -23,24 +23,30 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform           | Downloads Link | 
 | ------------- | ------------------ |  ------------ | 
-| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.2/AMD.GPU.MacPro7.1.zip | 
-| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.2/AMD.RX550Lexa.MacPro7.1.zip | 
+| MacPro7,1      | AMD General GPU   | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.3.1/AMD.GPU.MacPro7.1.zip | 
+| MacPro7,1      | AMD RX550Lexa GPU | https://github.com/SuperNG6/MSI-B660-Monterey-EFI/releases/download/13.3.1/AMD.RX550Lexa.MacPro7.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.8.8    | 
-| AppleALC      | 1.7.8       |
+| OpenCorePkg   | 0.9.1    | 
+| AppleALC      | 1.8.1       |
 | IntelMausi    | 1.0.7     |
-| Lilu          | 1.6.3           |
-| VirtualSMC    | 1.3.0     |
-| WhateverGreen | 1.6.3  |
+| Lilu          | 1.6.4           |
+| VirtualSMC    | 1.3.1     |
+| WhateverGreen | 1.6.4  |
 | NVMeFix       | 1.1.0        |
     
 
 ## Changelog
+### 2023/05/07
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOs Ventura 13.3.1
+
 ### 2023/02/01
 
     1、update config.plist
